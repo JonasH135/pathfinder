@@ -2,7 +2,7 @@ version: "3"
 services:
   starknet-node:
     image: eqlabs/pathfinder:latest
-    restart: unless-stopped
+    restart: unless-stopped #??
     environment:
       - RUST_LOG=info
     env_file:
